@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMarkt</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<!-- Header Section -->
+<div id="header">
+    <div id="logo">
+        <div id="logo-container">
+        <img src="images/leaf-icon.png" alt="Your Logo">
+        </div>
+        <span>EcoMarkt</span>
+    </div>
+    <nav id="navigation">
+        <ul>
+            <li id="nav-about">About Us / Contact</li>
+            <li id="nav-products">Products</li>
+            <li id="nava-community">Community</li>
+        </ul>
+    </nav>
+    <div id="user-options">
+        <li id="login">Login | Sign Up</li>
+    </div>
+<div id="search-bar">
+    <input type="text" id="search-input" placeholder="Search Eco-Products...">
+    <button type="button" id="search-button">Search</button>
+</div>
+<div id="cart">
+    <img src="images/cart-icon.png" alt="Shopping Cart">
+    <span id="cart-count">0</span>
+</div>
+</div>
+
+
+<!-- Main Section -->
+<div id="main-content">
+
+<div id="left-section">
+<!-- Filtering and Sorting Section -->
+<div id="filtering-section">
+<div id="sustainability-filters">
+    <h2>Sustainability Filters</h2>
+    <label for="sustainability-filter">Filter by Sustainability:</label>
+    <select id="sustainability-filter">
+        <option value="" disabled selected>Sustainability options</option>
+        <option value="carbon">Carbon Footprint: Low</option>
+        <option value="biodegradable">Biodegradable</option>
+        <option value="energy">Energy-Efficient</option>
+        <option value="upcycled">Upcycled / Recycled</option>
+        <option value="reusable">Reusable</option> 
+    </select>
+</div>
+
+<div id="category-filters">
+    <h2>Category Filters</h2>
+    <label for="category-filter">Filter by category:</label>
+    <select id="category-filter">
+        <option value="" disabled selected>Category options</option>
+        <option value="food">Food</option>
+        <option value="home">Home</option>
+        <option value="electronics">Electronics</option>
+        <option value="fashion">Fashion & Beauty</option>
+    </select>
+</div>
+
+
+<!-- Community Engagement Section -->
+<div id="community-section">
+    <h2>Community Posts</h2>
+    <div id="forum">
+        <div class="post">
+            <div class="post-header">
+                <img src="images/user-icon.png" alt="User Avatar">
+                <span class="username">JohnDoe123</span>
+            </div>
+            <div class="post-content">
+                <p>Awesome customer service. Definitely buying again!.</p>
+            </div>
+            <div class="post-footer">
+                <span class="date">Posted on January 26, 2024</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+</div>
+<!-- Product Listings Section -->
+<div id="product-listings">
+    <div class="product-card">
+        <img src="images/spinach.jpeg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="sustainability-metrics">Carbon Footprint: Low</p>
+        <p class="sustainability-metrics">Recyclable: Yes</p>
+        <p class="certification-badges">EcoCert, Energy Star</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/mango.jpeg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p class="sustainability-metrics">Carbon Footprint: Moderate</p>
+        <p class="sustainability-metrics">Recyclable: Yes</p>
+        <p class="certification-badges">Fair Trade, Organic</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/pinneaple.jpeg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p class="sustainability-metrics">Carbon Footprint: Moderate</p>
+        <p class="sustainability-metrics">Recyclable: Yes</p>
+        <p class="certification-badges">Fair Trade, Organic</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/potatoes.jpeg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p class="sustainability-metrics">Carbon Footprint: Moderate</p>
+        <p class="sustainability-metrics">Recyclable: Yes</p>
+        <p class="certification-badges">Fair Trade, Organic</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/carrots.jpeg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p class="sustainability-metrics">Carbon Footprint: Moderate</p>
+        <p class="sustainability-metrics">Recyclable: Yes</p>
+        <p class="certification-badges">Fair Trade, Organic</p>
+        <button>Add to Cart</button>
+    </div>
+    
+</div>
+
+
+
+<div id="right-section">
+    <!-- User Reviews and Ratings Section -->
+    <div id="user-reviews">
+        <div class="review">
+            <div id="rating">
+                <h2>Product rating</h2>
+                ★★★★☆
+            </div>
+            <div id="user-info">
+                <img class="user-icon" src="images/user-icon.png" alt="User Avatar">
+                <span class="username">User123</span>
+            </div>
+            <div id="feedback">
+                <p>I really loved the product!</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Educational Content Section -->
+<div id="educational-content">
+    <div class="article">
+        <h2>Educational Information</h2>
+        <h3>Environmental Impact</h3>
+        <p id="environmentalImpact">Our commitment to sustainability drives every decision we make. By promoting eco-friendly practices and innovative solutions, we strive to minimize carbon footprints and protect natural resources. Together, we can create a greener, healthier planet for future generations.</p>
+
+        <h3>Production Process</h3>
+        <p id="productionProcess">Our products are crafted with precision and care, using state-of-the-art technology and sustainably sourced materials. From concept to completion, each step of the process is designed to ensure the highest quality while minimizing environmental impact. This dedication to excellence guarantees products you can trust and be proud of..</p>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
