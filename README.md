@@ -50,4 +50,4 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For any inquiries, suggestions, or feedback, please contact us at [your-email@example.com].
+For any inquiries, suggestions, or feedback, please contact us at [robert21lumumba@gmail.com].
